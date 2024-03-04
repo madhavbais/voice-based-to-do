@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+   
+}
+
+
+h1 {
+    border: none;
+}
+
+html, body {
+    width: 100%;
+    height: 75%;
+    background-image: url('backgroundsky.jpg');
+    color: white;
+    background-size: cover;
+
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    gap: 1em;
+    border: none;
+    
+}
+
+#taskInput {
+    width: 20em;
+    height: 2.8em;
+    padding: 0em 1em;
+    border-radius: 10px;
+}
+
+button{
+    padding: 10px 20px;
+    height: 2.8em;
+    color: white;
+    background-color: #080d45;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+
+button:hover {
+      /* background-color: #dcbb75; */
+      border-color: aliceblue;
+      
+}
+
+button:active {
+    background-color: #dcbb75;
+    /* padding: 15px 25px 25px; */
+    font-size: 0.8em;
+}
+
+#deleteBtn {
+    border-radius: 0%;
+}
+
+#deleteBtn:active {
+    color: #080d45;
+}
+#taskList {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+h2 {
+    background-color: #080d45;
+}
+h1 {
+    background-color: #080d45;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    width: 60em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    align-items: center;
+    background-color: #080d45;
+    
+}
+
+li span {
+    padding-left: 1em;
+    display: inline-block;
+    
+}
